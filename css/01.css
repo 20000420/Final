@@ -1,0 +1,333 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+.box2 a:hover{  color:#FFF } 
+.box1{
+	width: 999px;
+	height: 200px;
+	background: lightblue;
+	margin: 0 auto;
+}
+.h{
+	
+	font:80px "microsoft yahei";
+	color: white;
+	
+	
+}
+.H{
+	font: 40px "microsoft yahei";
+	color: whitesmoke;
+	
+}
+.box1 h3{
+	margin-left: 90px;
+	padding-top: 40px;
+}
+.box1 .search{
+	width: 230px;
+	height: 30px;
+	float: right;
+	
+	margin-right:18px ;
+	margin-top: 20px;
+	border: 1px solid #e5e5e5;
+}
+.box1 .search input[type=text]{
+	width: 197px;
+	height: 30px;
+	border: none;
+	background: #f1f1f1;
+	float: left;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.box1 .search input[type=submit]{
+	width: 33px;
+	height: 30px;
+	border: none;
+	background: #f1f1f1 url(../img/search.png)no-repeat center;
+	float: right;
+	
+}
+.box2 ul{ 
+    width:999px;
+	height: 50px;
+	background: cornflowerblue;
+	margin: 0 auto;
+	list-style: none;
+}
+.box2 ul li{
+	float: left;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width:166.4px;
+	
+	text-align: center;/*水平居中*/
+	height: 50px;
+	line-height: 50px;/*垂直居中*/
+	text-decoration: none;/*去掉下划线，a标签不能继承li，所以下划线去不掉*/
+	border-right: 1px solid black;/*加右边框*/
+	box-sizing: border-box;/*使盒子不会变大*/
+	
+				
+}
+.box2 ul li:last-child{
+	border: none;/*去掉最后一个的有边框*/
+}
+.box2 ul li:hover{
+	background: red;
+}
+.box2 a{
+	text-decoration: none;/*去掉下划线*/
+	font-size: 20px;
+	color: black;
+}
+.box3{
+	width: 999px;
+	height: 250px;
+	margin: 0 auto;
+	
+	overflow: hidden;
+}
+.box3 ul{
+	width: 3000px;
+	height: 280px;
+	animation: gg 15s linear infinite;
+}
+.box3 ul li{
+    width: 300px;
+	height: 280px;
+	list-style: none;
+	float: left;
+}
+.box3 img{
+	width: 300px;
+	height: 280px;
+}
+ul:hover{
+	animation-play-state: paused;
+}
+@keyframes gg{
+	from{margin-left: 0;}
+	to{margin-left:-2400px;}
+}
+.box4{
+	width: 999px;
+	height: 300px;
+	margin-top: 10px;
+	
+	margin: 0 auto;
+}
+.box4 h3{
+	padding-top: 10px;
+}
+.jcc{
+	font: 20px "microsoft yahei";
+	color: brown;
+}
+.a{
+	padding-top: 20px;
+	float: right;
+	width: 200px;
+	padding-right: 0px;
+	
+
+}
+.b{
+	padding-top: 20px;
+	float: right;
+	width: 200px;
+	padding-right: 66px;
+
+}
+.c{
+	padding-top: 20px;
+	float: right;
+	width: 200px;
+	padding-right: 66px;
+
+}
+.d{
+	padding-top: 20px;
+	float: left;
+	width: 200px;
+	padding-left: 0px;
+	
+}
+.box4 p{
+	padding-top: 10px;
+	font: 20px"microsoft yahei";
+	text-align: center;
+}
+.box5{
+	width: 999px;
+	height: 300px;
+	margin-top: 10px;
+	margin: 0 auto;
+	background: lightblue;
+}
+.box5 h3{
+	padding-top: 10px;
+}
+.tp{
+	font: 20px "microsoft yahei";
+	color: brown;
+}
+.e{
+	padding-top: 20px;
+	float: right;
+	width: 200px;
+	padding-right: 0px;
+	
+
+}
+.f{
+	padding-top: 20px;
+	float: right;
+	width: 200px;
+	padding-right: 66px;
+
+}
+.g{
+	padding-top: 20px;
+	float: right;
+	width: 200px;
+	padding-right: 66px;
+
+}
+.i{
+	padding-top: 20px;
+	float: left;
+	width: 200px;
+	padding-left: 0px;
+	
+}
+.box5 p{
+	padding-top: 10px;
+	font: 20px"microsoft yahei";
+	text-align: center;
+}
+.box6{
+	width: 999px;
+	height: 300px;
+	margin-top: 10px;
+	margin: 0 auto;
+	
+}
+.box6 h3{
+	padding-top: 10px;
+}
+.bt{
+	font: 20px "microsoft yahei";
+	color: brown;
+}
+.o{
+	padding-top: 20px;
+	float: right;
+	width: 200px;
+	padding-right: 0px;
+	
+
+}
+.p{
+	padding-top: 20px;
+	float: right;
+	width: 200px;
+	padding-right: 66px;
+
+}
+.q{
+	padding-top: 20px;
+	float: right;
+	width: 200px;
+	padding-right: 66px;
+
+}
+.r{
+	padding-top: 20px;
+	float: left;
+	width: 200px;
+	padding-left: 0px;
+	
+}
+.box6 p{
+	padding-top: 10px;
+	font: 20px"microsoft yahei";
+	text-align: center;
+}
+.box7{
+	width: 999px;
+	height: 300px;
+	margin-top: 10px;
+	margin: 0 auto;
+	background: lightblue;
+}
+.box7 h3{
+	padding-top: 10px;
+}
+.xc{
+	font: 20px "microsoft yahei";
+	color: brown;
+}
+.s{
+	padding-top: 20px;
+	float: right;
+	width: 200px;
+	padding-right: 0px;
+	
+
+}
+.t{
+	padding-top: 20px;
+	float: right;
+	width: 200px;
+	padding-right: 66px;
+
+}
+.u{
+	padding-top: 20px;
+	float: right;
+	width: 200px;
+	padding-right: 66px;
+
+}
+.v{
+	padding-top: 20px;
+	float: left;
+	width: 200px;
+	padding-left: 0px;
+	
+}
+.box7 p{
+	padding-top: 10px;
+	font: 20px"microsoft yahei";
+	text-align: center;
+}
+.box8{
+	width: 999px;
+	height: 200px;
+	background: lavender;
+	margin: 0 auto;
+}
+p{
+	padding-top: 50px;
+	font: 15px "microsoft yahei";
+	color: brown;
+}
+textarea{
+	width:150px;
+	height: 50px;
+	margin-left:800px;
+}
+button{
+	width: 50px;
+	height: 40px;
+	margin-left:900px;
+}

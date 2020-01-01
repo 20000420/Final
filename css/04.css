@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.box2 a:hover{  color:#FFF } 
+
+.box1{
+	width: 999px;
+	height: 200px;
+	background: lightblue;
+	margin: 0 auto;
+}
+.h{
+	
+	font:80px "microsoft yahei";
+	color: white;
+	
+	
+}
+.H{
+	font: 40px "microsoft yahei";
+	color: whitesmoke;
+	
+}
+.box1 h3{
+	margin-left: 90px;
+	padding-top: 40px;
+}
+.box1 .search{
+	width: 230px;
+	height: 30px;
+	float: right;
+	
+	margin-right:18px ;
+	margin-top: 20px;
+	border: 1px solid #e5e5e5;
+}
+.box1 .search input[type=text]{
+	width: 197px;
+	height: 30px;
+	border: none;
+	background: #f1f1f1;
+	float: left;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.box1 .search input[type=submit]{
+	width: 33px;
+	height: 30px;
+	border: none;
+	background: #f1f1f1 url(../img/search.png)no-repeat center;
+	float: right;
+	
+}
+.box2 ul{ 
+    width:999px;
+	height: 50px;
+	background: cornflowerblue;
+	margin: 0 auto;
+	list-style: none;
+}
+.box2 ul li{
+	float: left;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width:166.4px;
+	
+	text-align: center;/*水平居中*/
+	height: 50px;
+	line-height: 50px;/*垂直居中*/
+	text-decoration: none;/*去掉下划线，a标签不能继承li，所以下划线去不掉*/
+	border-right: 1px solid black;/*加右边框*/
+	box-sizing: border-box;/*使盒子不会变大*/
+	
+				
+}
+.box2 ul li:last-child{
+	border: none;/*去掉最后一个的有边框*/
+}
+.box2 ul li:hover{
+	background: red;
+}
+.box2 a{
+	text-decoration: none;/*去掉下划线*/
+	font-size: 20px;
+	color: black;
+}
+.box3{
+	width: 333px;
+	height: 500px;
+	
+	float: right;
+	margin-right: 107px;
+}
+.box3 h3{
+	padding-top: 10px;
+	background: lightgray;
+	padding-bottom: 10px;
+	text-align: center;
+	}
+.box3 li{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	list-style-type: none;
+	background: url(../img/item_icon.png) no-repeat ;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	clear: both;
+	font: 15px "microsoft yahei";
+	border-bottom: 1px solid #666666;
+	
+}
+.zuixin{
+	padding-top: 20px;
+}
+.box4{
+	width: 650px;
+	height: 600px;
+	margin-right: 16px;
+
+	float: right;
+}
+.box4 h3{
+	padding-top: 10px;
+	background: lightgray;
+	padding-bottom: 10px;
+	
+	}
+.box4 ul{
+	padding-top: 20px;
+}
+.box4 li{
+	list-style-type: none;
+	
+	padding-left: 20px;
+	padding-bottom: 10px;
+	clear: both;
+	border-bottom: 1px solid #666666;
+}
+
+.box4 .c{
+	float: right;
+}
+.bt li{
+	background: url(../img/item_icon.png) no-repeat;
+}
+.box4 .a{
+	padding-right: 330px;
+}
+.box4 .sj{
+	float: right;
+}
+.box4 .cs{
+	float: right;
+	padding-right: 150px;
+}
+.box4 .bt{
+	
+	float: left;
+}
+.box9{
+	
+	padding-top: 50px;
+	width: 999px;
+	height: 200px;
+	background: lavender;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.box9 p{
+	
+	font: 15px "microsoft yahei";
+	color: brown;
+}
+.box9 textarea{
+	width:150px;
+	height: 50px;
+	margin-left:800px;
+}
+.box9 button{
+	width: 50px;
+	height: 40px;
+	margin-left:900px;
+}
